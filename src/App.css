@@ -1,0 +1,85 @@
+.App {
+  max-width: 1400px;
+  margin: 40px auto;
+
+}
+
+.background_container {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content:top;
+  height: 100vh;
+}
+
+h1{
+  font-family: Tourney, sans-serif;
+  background: linear-gradient(to top, #2521f3, rgb(235, 255, 125)); 
+  color:transparent;
+  -webkit-background-clip: text;
+}
+
+.menu {
+  background: rgb(22, 9, 211);
+  border: 2px solid #04bfe0;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+
+.menu:hover {
+  background: #d2d87d;
+  color: #000000;
+}
+
+
+.selection-menu, .game-menu {
+  /* Add your styles here */
+  margin:auto;
+  width: 200px;
+  height: 100px;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 5px;
+  
+}
+
+.selection-menu button a, .game-menu button a {
+  text-decoration: none; /* Remove the default underline */
+}
+
+.selection-menu button a:visited,.game-menu button a:visited {
+  color: inherit; /* Set the color to inherit from the parent */
+}
+
+/*navigation bar*/
+nav {
+  background-color: #000000; /* Set the background color of the navigation bar */
+  padding: 10px; /* Add some padding for spacing */
+  
+}
+
+ul {
+  list-style-type: none; /* Remove default list styles */
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.list {
+  text-decoration: none;
+  color: #fff; /* Set the text color for the links */
+  margin-right: 20px; /* Add some right margin between the links */
+  font-size: 18px; /* Set the font size */
+}
+
+.list:hover {
+  background: #8b8b8b;
+  color: #000000;
+  padding: 3px;
+}

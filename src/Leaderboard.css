@@ -1,0 +1,32 @@
+/* leaderboard.css */
+
+/* Style for the container */
+.table-container {
+  margin: center;
+  width: 80%;
+}
+
+/* Style for the table */
+table {
+  width: 100%; /* Use 100% width to fill the container */
+  border-collapse: collapse;
+  margin-top: 20px;
+  border :10px ridge  #000000;
+  table-layout: fixed;
+}
+
+/* Style for table header */
+th {
+  background-color: #cfc9c9;
+}
+
+/* Style for table cells */
+td, th {
+  padding: 10px;
+  border: 10px ridge #3b3c8f; /* Change to 1px solid for a cleaner border */
+}
+
+/* Style for table rows */
+tr {
+  background-color: #f9f9f9;
+}

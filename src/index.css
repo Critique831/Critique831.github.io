@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@900&display=swap');
+
+/* base styles */
+body {
+  font-family: Raleway, sans-serif;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  background-image: url('../public/img/background1.png'); /* Replace with the path to your image file */
+  color: #003bdd;
+  background-size:cover; /* Ensures that the background image covers the entire viewport */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat ; /* Prevents the background image from repeating */
+}
+
